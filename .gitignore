@@ -3,6 +3,7 @@ client/.idea
 client/node_modules
 client/yarn.lock
 client/package-lock.json
+client/yarn-error.log
 
 server/.idea
 server/node_modules
