@@ -1,11 +1,16 @@
 .featured {
   width: 100%;
   max-width: 1024px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   gap: 20px;
   z-index: 1;
 }
+
 .featured .featuredItem {
   position: relative;
   color: #ffffff;
@@ -13,14 +18,16 @@
   overflow: hidden;
   height: 250px;
 }
+
 .featured .featuredItem .featuredImg {
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
+
 .featured .featuredItem .featuredTitles {
   position: absolute;
   bottom: 30px;
   left: 20px;
 }
-
 /*# sourceMappingURL=featured.css.map */

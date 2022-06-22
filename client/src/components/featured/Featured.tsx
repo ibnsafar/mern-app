@@ -7,7 +7,7 @@ const Featured = () => {
                 <div className="featuredItem">
                     <img className={"featuredImg"}
                         src="https://a.cdn-hotels.com/gdcs/production24/d796/6921fa10-f585-11e8-b7e0-0242ac110002.jpg"
-                         alt=""/>
+                        alt="" />
                     <div className="featuredTitles">
                         <h1>Dublin</h1>
                         <h2>123 properties</h2>
@@ -16,7 +16,7 @@ const Featured = () => {
                 <div className="featuredItem">
                     <img className={"featuredImg"}
                         src="https://a.cdn-hotels.com/gdcs/production24/d796/6921fa10-f585-11e8-b7e0-0242ac110002.jpg"
-                         alt=""/>
+                        alt="" />
                     <div className="featuredTitles">
                         <h1>Dublin</h1>
                         <h2>123 properties</h2>
@@ -25,7 +25,7 @@ const Featured = () => {
                 <div className="featuredItem">
                     <img className={"featuredImg"}
                         src="https://a.cdn-hotels.com/gdcs/production24/d796/6921fa10-f585-11e8-b7e0-0242ac110002.jpg"
-                         alt=""/>
+                        alt="" />
                     <div className="featuredTitles">
                         <h1>Dublin</h1>
                         <h2>123 properties</h2>
