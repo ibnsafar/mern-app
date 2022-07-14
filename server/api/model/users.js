@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const bcrypt = require("bcrypt");
-const saltRounds = 10;
+const rounds = 10;
 
 const Schema = mongoose.Schema;
 
@@ -23,7 +23,7 @@ const UserSchema = new Schema({
 });
 
 UserSchema.pre('save', (next) => {
-    this.password = bcrypt.hashSync(this.password, saltRounds);
+    this.password = bcrypt.hashSync(this.password, rounds);
     next();
 })
 

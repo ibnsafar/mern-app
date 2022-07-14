@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
 
@@ -9,7 +9,7 @@ const MovieSchema = new Schema({
         required: true
     },
     released_on: {
-        type: Date,
+        type: String,
         trim: true,
         required: true
     }
