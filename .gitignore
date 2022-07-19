@@ -9,3 +9,4 @@ server/.idea
 server/node_modules
 server/yarn.lock
 server/package-lock.json
+server/config/database.js
